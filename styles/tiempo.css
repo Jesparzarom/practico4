@@ -1,27 +1,87 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
-    font-family: sans-serif;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+
+.main {
+  background-image: linear-gradient(
+    335deg,
+    rgba(238, 228, 238, 0.664),
+    rgba(250, 235, 238, 0.589),
+    rgba(181, 181, 206, 0.596)
+  );
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    align-content: center;
+  padding: 10px;
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(75, 0, 71, 0.425),
+  inset 1px 1px 10px 1px rgba(0, 0, 0, 0.226);
+  background-color: rgba(56, 5, 56, 0.459);
 }
 
 .container_hour,
 .container_date {
-    box-shadow: 0 0 2px black;
-    width: 20%;
-    padding: 5%;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.container_hour {
+  padding: 10px;
+  font-size: 300%;
+}
+
+.container_date {
+  padding: 1px;
+  font-size: 100%;
+}
+
+.container p {
+    color:rgb(218, 197, 221);
+    letter-spacing: 2px;
+    font-size: 10px;
+    
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 50%;
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .container_date {
+        font-size: x-small;
+    }
+    .container_hour {
+        font-size:larger;
+    }
+    
 }

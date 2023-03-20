@@ -9,7 +9,8 @@ function actualizarHora() {
 
 function actualizarFecha() {
   const fecha = new Date();
-  const hora = fecha.getUTCFullYear();
+  const parametros = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
+  const hora = fecha.toLocaleDateString("es-MX",parametros );
   divFechaActual.textContent = hora;
 }
 
