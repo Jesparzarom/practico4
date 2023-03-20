@@ -1,9 +1,18 @@
+const divHoraActual = document.getElementById("hora");
+const divFechaActual = document.getElementById("fecha");
 
-function hora(){
-    const now = new Date();
-    const options = { timeZone: 'America/Argentina/Buenos_Aires' };
-    const timeString = now.toLocaleTimeString('es-AR', options);
-    document.write(timeString)
+function actualizarHora() {
+  const fecha = new Date();
+  const hora = fecha.toLocaleTimeString();
+  divHoraActual.textContent = hora;
 }
 
-window.onload = hora()
+function actualizarFecha() {
+  const fecha = new Date();
+  const hora = fecha.getUTCFullYear();
+  divFechaActual.textContent = hora;
+}
+
+
+window.addEventListener("load", actualizarHora());
+window.addEventListener("load", actualizarFecha());
