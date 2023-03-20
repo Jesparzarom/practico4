@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: indianred;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#prompt {
+    background-color: rgba(252, 200, 200, 0.384);
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 5%;
+    color:rgb(255, 255, 255);
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
