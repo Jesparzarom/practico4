@@ -1,0 +1,36 @@
+
+*{
+    text-decoration: none;
+    color:black;
+}
+
+
+main {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.links {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0.5%;
+    width: 14%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    border-radius: 5px;
+    box-shadow: 
+        0px 0px 10px rgba(0, 0, 0, 0.253),
+        inset 0px 0px 0px 1px #ffffffff;
+    border-left: 10px solid rgb(0, 2, 128);
+}
+
+.links:hover,
+.links:active {
+    margin-left: 1.5%;
+    box-shadow: none;
+    transition: all ease-in-out 200ms;
+
+}
