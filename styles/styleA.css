@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(335deg, rgb(248, 243, 243), whitesmoke, rgb(243, 235, 235)) no-repeat;
+    font-size: 16px;
+    font-family: 'Arial';
+}
+
+
