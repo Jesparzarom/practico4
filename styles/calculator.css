@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+html {
+    font-size: 16px;
+    font-family: "Arial";
+    text-align: center;
+   
+}
+
+.container{
+    background-image: url("../imgs/drawing-pad-gab8f71cb6_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    font-size: 15px;
+    padding: 25px;
+    margin:10px 0;
+    background-color: rgba(119, 136, 153, 0.178);
+    color: black;
+}
+
+
+
+.base {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(245deg, #b0bbc0b6, #ffffff, #b0bbc0fb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(245deg, #b0bbc0, #ffffff, #b0bbc0fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    font-size: 20px;
+    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.701);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.456);
+}
+
+.display {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Coda', cursive;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.533);
+    text-align: right;
+    width: 99%;
+    background-color: #000000;
+    opacity: 0.8;
+    background-image: linear-gradient(45deg, #000000 50%, #050505 50%);
+    background-size: 10px 10px;
+    color: rgba(255, 255, 255, 0.845);
+    padding:10%;
+    box-shadow: inset 0 0 5px 5px rgb(0, 0, 0);
+    margin-bottom: 0.5%;
+    border-radius: 5px;
+}
+
+h6 {
+    align-self: flex-start;
+    font-size: 8px;
+    font-weight:normal;
+    letter-spacing: 1px;
+    color: rgb(255, 111, 0);
+    text-shadow: None;
+}
+
+.btn {
+    text-align: center;
+    width: 24%;
+    height: 12vh;
+    padding: 11.5%;
+    color: rgba(255, 255, 255, 0.663);
+    background-color: rgb(21, 21, 120);
+    margin: 0.5%;
+    box-shadow:  0 0 10px 0px rgba(0, 0, 0, 0.445),
+    inset 1px -1px 3px 2px rgba(161, 161, 161, 0.489);
+    border-radius: 5px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    font-size: 15px;
+    font-family: 'Coda', cursive;
+}
+
+
+a span {
+    font-size: 20px;
+}
+
+
+.btn:hover {
+    box-shadow:  inset 0 0 10px 0px rgba(0, 0, 0, 0.445),
+    1px -1px 3px 2px rgba(161, 161, 161, 0.489);
+}
+
+.btn:active {
+    box-shadow: inset 0 0 20px 5px rgba(2, 2, 2, 0.72);
+    transition: all 5ms;
+
+}
+
+.red {
+    background-color: #6a0d0d;
+}
+
+.orange {
+    background-color: #bd3909;
+}
+
+.green {
+    background-color: #114411;
+}

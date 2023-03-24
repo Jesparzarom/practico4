@@ -38,7 +38,7 @@ html {
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(75, 0, 71, 0.425),
   inset 1px 1px 10px 1px rgba(0, 0, 0, 0.226);
-  background-color: rgba(56, 5, 56, 0.459);
+  background-color: rgb(0, 91, 175);
 }
 
 .container_hour,
@@ -66,11 +66,26 @@ html {
 }
 
 
+.live {
+  justify-content: start;
+  align-items:normal;
+  font-size: x-small;
+}
+
+.cont-live {
+  border-radius: 0;
+  width: 100%;
+}
+
+.hsliv,
+.feliv {
+  padding: 0;
+}
+
 
 @media screen and (max-width: 800px) {
     .container {
-        width: 50%;
-        width: 50%;
+        width: 100%;
     }
     
 }
