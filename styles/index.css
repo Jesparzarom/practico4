@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(34, 110, 217);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-link {
+    background-color: rgba(0, 0, 0, 0.516);
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    width: 30%;   
+    color: white;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.links-link:hover,
+.links-link:active {
+    box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.516); 
+    transition: all 400ms;
+}
+
+footer {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer h6 {
+    letter-spacing: 2px;
+}
+
+footer a{
+    margin-top: 2%;
+    width: 10%;
+    background-color: rgba(204, 203, 206, 0.868);
+    border-radius: 50% 20% 45% 20%;
+    box-shadow: inset 0 0 5px black;
+}
+
+footer a:hover,
+footer a:active {
+    border-radius: 30%;
+    transition: all ease-in-out 400ms;
+    box-shadow: inset 0 0 15px black;
+}
