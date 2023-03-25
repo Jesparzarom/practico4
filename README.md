@@ -1,6 +1,6 @@
 # Repositorio de HTML y CSS del Trabajo Práctico 4 - Argentina Programa 4.0
 
-Este repositorio contiene el código HTML y CSS utilizado en los ejercicios del Trabajo Práctico 3 del curso Argentina Programa 4.0 Frontend Developer impartido por la Facultad de Ingeniería de la Universidad Nacional de La Pampa.
+Este repositorio contiene el código HTML y CSS utilizado en los ejercicios del Trabajo Práctico 4 del curso Argentina Programa 4.0 Frontend Developer impartido por la Facultad de Ingeniería de la Universidad Nacional de La Pampa.
 
 ## Contenido
 
