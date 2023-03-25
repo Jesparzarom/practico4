@@ -43,4 +43,4 @@ git clone git@github.com:Jesparzarom/practico4.git
 
 ## Contribución
 
-Este repositorio está destinado únicamente a mostrar el código utilizado en los ejercicios del Trabajo Práctico 3 del curso Argentina Programa 4.0 Frontend Developer impartido por la Facultad de Ingeniería de la Universidad Nacional de La Pampa. No se aceptarán contribuciones ni se brindará soporte para su uso en otros proyectos.
+Este repositorio está destinado únicamente a mostrar el código utilizado en los ejercicios del Trabajo Práctico 4 del curso Argentina Programa 4.0 Frontend Developer impartido por la Facultad de Ingeniería de la Universidad Nacional de La Pampa. No se aceptarán contribuciones ni se brindará soporte para su uso en otros proyectos.
