@@ -1,0 +1,22 @@
+
+main {
+    padding: 10px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+div {
+    font-size: 11px;
+    text-align: center;
+    background-color: rgb(0, 29, 110);
+    border-radius: 10px;
+    color: white;
+    height: 11px;
+    padding: 5px;
+}

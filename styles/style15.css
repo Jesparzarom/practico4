@@ -1,0 +1,122 @@
+* {
+    transition: all 500ms;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 40%;
+    height: 300px;
+    margin: 0.25%;
+    cursor: pointer;
+    object-fit: cover;
+    filter: blur(0px);
+}
+
+h1 {
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.319);
+    background-image:linear-gradient(335deg, rgba(0, 0, 122, 0.49), rgba(88, 0, 112, 0.49), rgba(59, 4, 55, 0.474)) ;
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.328),
+    -1px -1px 1px rgba(0, 0, 0, 0.303);
+    text-align: center;
+}
+
+.imagen {
+    opacity: 0.8;
+    border-radius: 0px;
+    transform: scale(90%);
+  }
+  
+  .resaltada {
+    transform: scale(105%);
+    opacity: 1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.716);
+  }
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background: linear-gradient(335deg, rgba(0, 0, 122, 0.697), rgba(88, 0, 112, 0.64), rgba(59, 4, 55, 0.681));
+    margin: 15% auto; /* 15% from the top and centered */
+    color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    box-shadow: 0 0 0px 2000px rgba(0, 0, 0, 0.731);
+
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+  @media screen and (max-width:945px){
+    img {
+        width:80%;
+        margin: 0.25%;
+        cursor: pointer;
+    }
+    
+    
+    .imagen {
+        opacity: 0.8;
+        border-radius: 0px;
+        transform: scale(90%);
+      }
+      
+      .resaltada {
+        transform: scale(103%);
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.716);
+      }
+
+    
+  }
+
+
+
+  
